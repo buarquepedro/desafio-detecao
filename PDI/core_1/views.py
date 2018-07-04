@@ -17,7 +17,6 @@ def load_image(obj):
 def deteccao(request):
     form = FormOpencv(request.POST or None, request.FILES or None)
     if form.is_valid():
-        # class 'PDI.core_1.models.Opencv
         modelo = Opencv(imagem=request.FILES['imagem'])
         imagem = load_image(modelo)
 
