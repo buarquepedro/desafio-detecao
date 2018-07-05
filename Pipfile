@@ -12,6 +12,5 @@ opencv-python = "*"
 dj_static = "*"
 python-decouple = "*"
 
-
 [requires]
 python_version = "2.7.14"
