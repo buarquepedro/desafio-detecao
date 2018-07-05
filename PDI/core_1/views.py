@@ -1,11 +1,12 @@
 # coding: utf8
 
 import cv2
-import numpy as np
 import django
-django.setup()
+import numpy as np
 
 from django.shortcuts import render
+
+django.setup()
 
 from .models import Opencv
 from .forms import FormOpencv
