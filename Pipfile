@@ -11,11 +11,7 @@ whitenoise = "*"
 opencv-python = "*"
 dj_static = "*"
 python-decouple = "*"
-dj-database-url = "*"
-Django = "1.9.7"
-django-heroku = "*"
-django-realtime = "*"
-django-toolbelt = "*"
+
 
 [requires]
 python_version = "2.7.14"
