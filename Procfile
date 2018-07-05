@@ -1,1 +1,1 @@
-web: gunicorn.py PDI.wsgi.application --log-file -
+web: gunicorn PDI.wsgi --log-file -
