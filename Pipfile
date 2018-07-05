@@ -4,7 +4,7 @@ verify_ssl = true
 
 [packages]
 dj-database-url = "*"
-django = "1.9.7"
+django = "*"
 gunicorn = "*"
 psycopg2 = "*"
 whitenoise = "*"
@@ -13,4 +13,4 @@ dj_static = "*"
 python-decouple = "*"
 
 [requires]
-python_version = "2.7.15"
+python_version = "2.7.14"
