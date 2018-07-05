@@ -20,7 +20,7 @@ def deteccao(request):
         modelo = Opencv(imagem=request.FILES['imagem'])
         imagem = load_image(modelo)
 
-        # salva imagem original para posterior comparacao
+        # Salva imagem original para posterior comparacao
         cv2.imwrite("PDI/core_1/static/img/deteccao_original.png", imagem)
 
         # faz a deteccao na imagem convertida para gray
