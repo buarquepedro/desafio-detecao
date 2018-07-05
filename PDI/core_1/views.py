@@ -2,6 +2,8 @@
 
 import cv2
 import numpy as np
+import django
+django.setup()
 
 from django.shortcuts import render
 
