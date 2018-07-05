@@ -8,7 +8,7 @@ django = "*"
 gunicorn = "*"
 psycopg2 = "*"
 whitenoise = "*"
-opencv-python = "*"
+opencv-contrib-python-headless = "*"
 dj_static = "*"
 python-decouple = "*"
 
