@@ -13,4 +13,4 @@ dj_static = "*"
 python-decouple = "*"
 
 [requires]
-python_version = "2.7.14"
+python_version = "2.7.15"
