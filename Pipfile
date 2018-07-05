@@ -11,6 +11,7 @@ whitenoise = "*"
 opencv-contrib-python-headless = "*"
 dj_static = "*"
 python-decouple = "*"
+PIL = "*"
 
 [requires]
 python_version = "2.7.14"
