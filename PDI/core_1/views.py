@@ -23,7 +23,7 @@ def deteccao(request):
         # Salva imagem original para posterior comparacao
         cv2.imwrite("PDI/core_1/static/img/deteccao_original.png", imagem)
 
-        # faz a deteccao na imagem convertida para gray
+        # Faz a deteccao na imagem convertida para gray
         gray = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 
         xml_face = cv2.CascadeClassifier('PDI/cascades/haarcascade_frontalface_default.xml')
