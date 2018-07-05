@@ -10,8 +10,7 @@ from django.conf.urls.static import static
 
 admin.autodiscover()
 
-urlpatterns = ['',
-               url(r'^deteccao/', PDI.core_1.views.deteccao, name='deteccao'),
+urlpatterns = [url(r'^deteccao/', PDI.core_1.views.deteccao, name='deteccao'),
                url(r'^admin/', admin.site.urls)]
 
 if settings.DEBUG:
